@@ -13,7 +13,6 @@ function About() {
         animate={{ opacity: 1 }}
         transition={{ duration: 1 }}
       >
-        {/* Top Section */}
         <motion.div 
           className="flex flex-col md:flex-row justify-center"
           initial={{ opacity: 0, y: 50 }}

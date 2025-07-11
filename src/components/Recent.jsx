@@ -9,10 +9,10 @@ function Recent() {
   const [fullImage, setFullImage] = useState(null);
 
   const cards = [
-    { id: 1, img: red1, title: "Web Development" },
-    { id: 2, img: red2, title: "Web Development" },
-    { id: 3, img: red3, title: "Web Development" },
-    { id: 4, img: red4, title: "Web Development" },
+    { id: 1, img: red1, title: "Shopify Development" },
+    { id: 2, img: red2, title: "Worpress Development" },
+    { id: 3, img: red3, title: "Wordpress Development" },
+    { id: 4, img: red4, title: "React Development" },
   ];
 
   return (
@@ -62,10 +62,10 @@ function Recent() {
                     hovered === card.id ? "bottom-0" : "bottom-[-100px]"
                   }`}
                 >
-                  <p className="text-xs sm:text-sm">Components</p>
+                  <p className="text-xs sm:text-sm"></p>
                   <h3 className="text-base sm:text-lg font-bold">{card.title}</h3>
                   <div
-                    className="absolute right-4 bottom-4 bg-red-500 p-2 rounded-full cursor-pointer"
+                    className="absolute right-4 bottom-3 bg-red-500 p-2 rounded-full cursor-pointer"
                     onClick={() => setFullImage(card.img)}
                   >
                     ➜

@@ -16,7 +16,7 @@ const Navbar = () => {
                 </div>
 
                 <div className="md:block hidden">
-                    <ul className="flex md:gap-5 lg:gap-10 pr-4 md:pt-6 ">
+                    <ul className="flex md:gap-5 lg:gap-10 pr-4 md:pt-6 cursor-pointer ">
                         <li>
                         <Link to="home" smooth={true} duration={500}>Home</Link>
                         </li>
